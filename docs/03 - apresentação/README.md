@@ -107,4 +107,6 @@ SLIDE 20
 
 SLIDE 21
 ---
-![image-21](./imagens/image-22.png)
+![image-21](./imagens/image-21.png)
+
+
