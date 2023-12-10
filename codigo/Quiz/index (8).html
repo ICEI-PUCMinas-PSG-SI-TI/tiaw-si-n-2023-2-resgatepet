@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Quiz de Adoção de Animais Abandonados</title>
+</head>
+<body>
+
+  <div class="container mt-5">
+      <h1 class="mb-4">Quiz de Adoção de Animais Abandonados</h1>
+
+      <div id="quiz-container">
+          <div id="question1" class="question">
+              <h2>Pergunta 1: Por que você deseja adotar um animal de estimação?</h2>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q1" value="companhia">
+                  <label class="form-check-label">Para companhia</label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q1" value="protecao">
+                  <label class="form-check-label">Para proteção</label>
+              </div>
+          </div>
+
+          <div id="question2" class="question">
+              <h2>Pergunta 2: Você está disposto a dedicar tempo e recursos para cuidar do animal?</h2>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q2" value="sim">
+                  <label class="form-check-label">Sim</label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q2" value="nao">
+                  <label class="form-check-label">Não</label>
+              </div>
+          </div>
+
+          <div id="question3" class="question">
+              <h2>Pergunta 3: Você tem espaço suficiente em casa para um animal de estimação?</h2>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q3" value="sim">
+                  <label class="form-check-label">Sim</label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="q3" value="nao">
+                  <label class="form-check-label">Não</label>
+              </div>
+          </div>
+
+          <button class="btn btn-primary" onclick="enviarQuiz()">Enviar Respostas</button>
+      </div>
+
+      <div id="result-container" style="display:none;">
+          <h2 class="mt-4" id="result-message"></h2>
+          <button class="btn btn-secondary mt-3" onclick="voltarQuiz()">Voltar</button>
+      </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
