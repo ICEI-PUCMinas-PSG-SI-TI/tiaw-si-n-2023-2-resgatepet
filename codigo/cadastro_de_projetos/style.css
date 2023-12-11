@@ -25,11 +25,11 @@ body {
     
    
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .form-label {
-    font-weight: bold;
+    
 }
 
 .form-control {
@@ -65,7 +65,7 @@ font-size: 16px;
 
 #ongs {
     width: 100%;
-    background-color: #fff;
+    background-color: #161718;
     padding: 20px;
  
     
