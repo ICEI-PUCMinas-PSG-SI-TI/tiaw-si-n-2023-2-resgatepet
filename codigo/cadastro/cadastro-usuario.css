@@ -1,11 +1,5 @@
 
-  
-  *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
+
   body{
     
     width: 100%;
@@ -16,34 +10,42 @@
   }
   
   .container{
+    padding-left:10%;
   
   }
   
   .header{
-    background: linear-gradient(120deg, #5c5f5f 0%, #6b6a6a 100%);
-    padding: 24px;
-    text-align: center;
+    
+    padding: 15px;
+    padding-left: 27%;
     color: rgb(255, 255, 255)
   }
 
   .form{
     padding: 18px;
+    width: 70%;
+    
+   
+    
   }
 
   .form-content{
     margin-bottom: 8px;
     padding-bottom: 18px;
-    position: relative;
+    position:relative;
   }
 
   .form-content label{
-    display: inline-block;
+    display: inline-flexbox;
+    width: 10%;
     margin-bottom: 4px;
+    border: 10px;
   }
 
 
   .form-content input{
-    display: block;
+    
+    display:block;
     width: 100%;
     border-radius: 8px;
     padding: 8px;
