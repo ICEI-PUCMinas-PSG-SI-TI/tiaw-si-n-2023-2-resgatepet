@@ -22,15 +22,13 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    
-   
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
 }
 
-.form-label {
-    
-}
+.form-label {}
 
 .form-control {
     width: 100%;
@@ -46,19 +44,14 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #fff;
     padding: 10px 20px;
     border: none;
-    
-   
-border-radius: 5px;
-    
-   
-cursor: pointer;
-    
-   
-font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .btn-primary:hover {
     background-color: #0056b3;
+    
 }
 
 
@@ -67,12 +60,12 @@ font-size: 16px;
     width: 100%;
     background-color: #161718;
     padding: 20px;
- 
-    
-   
-border-radius: 8px;
+
+
+
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-   
-margin-top: 20px;
+
+
+    margin-top: 20px;
 }
