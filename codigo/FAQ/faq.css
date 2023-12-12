@@ -1,7 +1,8 @@
 .accordion{
     --bs-accordion-bg: #212529;
-    --bs-accordion-border-color: white;
+    
+    --bs-accordion-border-color: rgb(97, 92, 92);
     --bs-accordion-btn-color: white;
-    --bs-accordion-active-bg:#212529;
+    --bs-accordion-active-bg:#234e8fcc;
     --bs-accordion-active-color:white;
 }
